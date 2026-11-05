@@ -1,0 +1,6 @@
+# скрипты для Linux-сервера всегда с LF, иначе bash на сервере споткнётся о \r
+*.sh text eol=lf
+tunnel/relay/*.py text eol=lf
+*.bat text eol=crlf
+*.png binary
+*.ico binary
